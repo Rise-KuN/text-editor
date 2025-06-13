@@ -4,6 +4,7 @@ Text Editor Application using PyQt6
 ## Description
 - This application provides a simple text editor with customizable themes, fonts, and a debug console.
 - It also saves settings to a file and restores them on startup.
+- This application supports both LTR and RTL.
 
 > [!NOTE]
 > Require Python 3.9 or above.
