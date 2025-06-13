@@ -1,10 +1,9 @@
-# Text Editor
-Text Editor Application using PyQt6
+# TextArea
+TextArea Application using PyQt6
 
 ## Description
-- This application provides a simple text editor with customizable themes, fonts, and a debug console.
-- It also saves settings to a file and restores them on startup.
-- This application supports both LTR and RTL.
+- This application provides a simple TextArea with customizable themes and fonts.
+- It also saves settings and restores them on startup.
 
 > [!NOTE]
 > Require Python 3.9 or above.
@@ -28,5 +27,5 @@ pip install pyinstaller pyqt6
 
 Press `Win + R`, Then type `cmd`, And hit Enter
 ```
-pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --name "Text Editor" TextEditor.py
+pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --name "TextArea" TextArea.py
 ```
